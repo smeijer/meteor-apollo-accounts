@@ -19,6 +19,7 @@
   "author": "nicolaslopezj",
   "license": "MIT",
   "devDependencies": {
+     "babel-eslint": "^7.0.0",
     "babel-cli": "6.5.1",
     "babel-eslint": "^7.0.0",
     "babel-jest": "^15.0.0",
@@ -29,7 +30,8 @@
     "eslint": ">=3.0.0",
     "graphql-tag": "^1.0.0",
     "jest-cli": "^15.1.1",
-    "standard": "*"
+    "standard": "*",
+    "uglify-js": "^2.7.3"
   },
   "peerDependencies": {
     "graphql-tag": "^1.0.0"
@@ -38,8 +40,6 @@
     "testPathIgnorePatterns": ["/node_modules/", "/client/"]
   },
   "dependencies": {
-    "babel-eslint": "^7.0.0",
-    "uglify-js": "^2.7.3",
     "underscore": "^1.8.3"
   },
   "standard": {
